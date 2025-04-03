@@ -33,7 +33,7 @@ button{
     border-radius: 7px;
 }
 button:hover{
-    background-color: rgb(216, 55, 55);
+    background-color: rgb(238, 59, 59);
 }
 button:active{
     background-color: rgb(214, 126, 126);;
@@ -60,7 +60,7 @@ a:visited{
     
 }
 .formH1{
-    color: rgb(9, 104, 194);;
+    color: rgb(9, 104, 194);
 }
 
 /* ID's */
@@ -76,19 +76,26 @@ a:visited{
 }
 #login{
     float: left;
-    margin-left: 70px;
+    margin-left: 63px;
     width: 35%;
 }
 #signup{
     float: right;
-    margin-right: 90px;
+    margin-right: 83px;
     width: 35%;
 }
 #chkBox{
     width: 25px;
 }
 #rememberMe{
+    color: rgb(9, 104, 194);
     margin-right: 56px;
+}
+#forgotP{
+    color: rgb(211, 35, 35);
+}
+#forgotP:visited{
+    color: rgb(87, 86, 86);
 }
 #slideBtn{
     margin-left: 120px;
