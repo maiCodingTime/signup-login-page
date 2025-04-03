@@ -11,7 +11,9 @@ slideBtn.addEventListener("click", () => {
 
     if(slideBtn.textContent === "Login"){
         overlay.classList.toggle('right');                  // Adds class 'right' to animate div to slide right
-        const timeOut = setTimeout(changeToSignUp, 1800);
+
+        const timeOut = setTimeout(changeToSignUp, 1800);   // Allows for text to change as soon as animation stops
+
         overlay.classList.remove('left');                   // this removes the class so when btn triggers program to move left again, it can restart without a bug
     }
     else{
