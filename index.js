@@ -1,8 +1,6 @@
 // Mai Vue Xiong
 // Login / SignUp Page
 
-const slideLeft = document.getElementById("slideLeft");
-const slideRight = document.getElementById("slideRight");
 const overlay = document.getElementById("overlay");
 const slideBtn = document.getElementById("slideBtn");
 let line1 = document.getElementById("line1");

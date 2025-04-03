@@ -28,7 +28,7 @@ button{
     padding: 5px;
     margin: 5px;
     margin-top: 25px;
-    margin-left: 45%;
+    margin-left: 42%;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 7px;
@@ -52,9 +52,12 @@ a:hover{
 a:visited{
     color: rgb(87, 86, 86);
 }
+a:hover{                           /* displayed twice to keep hover effect */
+    color: rgb(216, 55, 55);    /* even after visited */
+}
 /* Classes */
 .mySpan{
-    color: rgb(9, 104, 194);;
+    color: rgb(9, 104, 194);
     overflow: hidden;
     white-space: nowrap;
     margin: 15px;
@@ -95,8 +98,14 @@ a:visited{
 #forgotP{
     color: rgb(211, 35, 35);
 }
+#forgotP:hover{
+    color: rgb(9, 104, 194);
+}
 #forgotP:visited{
     color: rgb(87, 86, 86);
+}
+#forgotP:hover{
+    color: rgb(9, 104, 194);
 }
 #slideBtn{
     margin-left: 120px;
