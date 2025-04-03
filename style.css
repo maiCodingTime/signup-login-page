@@ -1,0 +1,12 @@
+hr{
+    bottom: 17px;
+    position: relative;
+    z-index: 1;
+}
+.mySpan{
+    background-color: white;
+    position: relative;
+    width: 120px;
+    z-index: 10;
+    text-align: center;
+}
